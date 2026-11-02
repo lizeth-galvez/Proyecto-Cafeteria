@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú | Dulce Aroma</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+     <header>
+        <div class="logo">
+            <h1>Dulce Aroma</h1>
+            <p>Cafetería & Pastelería</p>
+        </div>
+        <nav>
+            <a href="inicio.html">Inicio</a>
+            <a href="menu.html">Menú</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="carrito.html" class="carrito-icono">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="contador">0</span>
+            </a>
+        </nav>
+    </header>
+    <section class="titulo-menu">
+        <div class="linea"></div>
+        <h2>Nuestro Menú</h2>
+        <div class="linea"></div>
+    </section>
+    <section class="categorias-container">
+        <button class="btn-categoria active" data-categoria="todos">Todos</button>
+        <button class="btn-categoria" data-categoria="cafes">Cafés</button>
+        <button class="btn-categoria" data-categoria="frias">Bebidas Frías</button>
+        <button class="btn-categoria" data-categoria="frappes">Frappés</button>
+        <button class="btn-categoria" data-categoria="pasteles">Pasteles</button>
+        <button class="btn-categoria" data-categoria="postres">Postres</button>
+        <button class="btn-categoria" data-categoria="bocadillos">Bocadillos</button>
+    </section>
+    <section class="productos">
+        <div class="prod cafes">
+            <img src="../img/capuccino.jpg">
+            <h3>Cappuccino</h3>
+            <p>Café espresso con espuma cremosa y leche.</p>
+            <span>S/ 6.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod cafes">
+            <img src="../img/latte.jpg">
+            <h3>Latte</h3>
+            <p>Café con leche y espuma suave.</p>
+            <span>S/ 7.50</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod cafes">
+            <img src="../img/espresso.jpg">
+            <h3>Espresso</h3>
+            <p>Café concentrado de intenso sabor.</p>
+            <span>S/ 7.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod cafes">
+            <img src="../img/americano.jpg">
+            <h3>Americano</h3>
+            <p>Espresso preparado con agua caliente.</p>
+            <span>S/ 6.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod frias">
+            <img src="../img/s.fresa.jpg">
+            <h3>Smoothie de Fresa</h3>
+            <p>Bebida cremosa de fresa.</p>
+            <span>S/ 8.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod frias">
+            <img src="../img/latte.h.jpg">
+            <h3>Latte Helado</h3>
+            <p>Refrescante café con hielo.</p>
+            <span>S/ 7.50</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod frias">
+            <img src="../img/te.verde.jpg">
+            <h3>Té Verde Helado</h3>
+            <p>Infusión natural con hielo.</p>
+            <span>S/ 10.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod frias">
+            <img src="../img/maracuya.jpg">
+            <h3>Limonada de Maracuyá</h3>
+            <p>Natural y refrescante.</p>
+            <span>S/ 11.50</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod frappes">
+            <img src="../img/vainilla.jpg">
+            <h3>Frappé de Vainilla</h3>
+            <p>Helado batido sabor vainilla.</p>
+            <span>S/ 14.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod frappes">
+            <img src="../img/mocca.jpg">
+            <h3>Frappé de Mocca</h3>
+            <p>Café, chocolate y hielo.</p>
+            <span>S/ 12.50</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod frappes">
+            <img src="../img/cream.jpg">
+            <h3>Cookies & Cream</h3>
+            <p>Galletas trituradas con crema.</p>
+            <span>S/14.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod frappes">
+            <img src="../img/fresa.jpg">
+            <h3>Frappé de Fresa</h3>
+            <p>Fresa natural y crema.</p>
+            <span>S/14.50</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod pasteles">
+            <img src="../img/selvanegra.jpg">
+            <h3>Torta Selva Negra</h3>
+            <p>Chocolate y cerezas.</p>
+            <span>S/6.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod pasteles">
+            <img src="../img/zanahoria.jpg">
+            <h3>Torta de Zanahoria</h3>
+            <p>Esponjosa con canela.</p>
+            <span>S/5.50</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod pasteles">
+            <img src="../img/piña.jpg">
+            <h3>Pastel de Piña</h3>
+            <p>Suave y delicioso.</p>
+            <span>S/12.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod pasteles">
+            <img src="../img/naranja.jpg">
+            <h3>Torta de Naranja</h3>
+            <p>Con aroma cítrico.</p>
+            <span>S/6.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod postres">
+            <img src="../img/chocolate.jpg">
+            <h3>Mousse de Chocolate</h3>
+            <p>Chocolate artesanal.</p>
+            <span>S/10.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod postres">
+            <img src="../img/panna.jpg">
+            <h3>Panna Cotta</h3>
+            <p>Postre italiano.</p>
+            <span>S/7.50</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod postres">
+            <img src="../img/brownie.jpg">
+            <h3>Brownie</h3>
+            <p>Chocolate con nueces.</p>
+            <span>S/12.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod postres">
+            <img src="../img/limon.jpg">
+            <h3>Pie de Limón</h3>
+            <p>Crema de limón.</p>
+            <span>S/7.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod bocadillos">
+            <img src="../img/club.jpg">
+            <h3>Sándwich Club</h3>
+            <p>Pollo, queso y verduras.</p>
+            <span>S/9.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod bocadillos">
+            <img src="../img/panini.jpg">
+            <h3>Panini de Pollo</h3>
+            <p>Pan artesanal.</p>
+            <span>S/8.50</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod bocadillos">
+            <img src="../img/quiche.jpg">
+            <h3>Quiche</h3>
+            <p>Espinaca y queso.</p>
+            <span>S/12.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="prod bocadillos">
+            <img src="../img/Croissant.jpg">
+            <h3>Croissant</h3>
+            <p>Recién horneado.</p>
+            <span>S/7.00</span>
+            <button>Comprar</button>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h3>Dulce Aroma</h3>
+            <p>Cafetería & Pastelería</p>
+        </div>
+        <div>
+            <h3>Contáctanos</h3>
+            <p>Av. Los Cafetales 123</p>
+            <p>dulcearoma@gmail.com</p>
+        </div>
+        <div>
+            <h3>Horario</h3>
+            <p>Lunes - Domingo</p>
+            <p>8:00 am - 9:00 pm</p>
+        </div>
+        <div>
+            <h3>Síguenos</h3>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>TikTok</p>
+        </div>
+    </footer>
+    <script src="../js/comprar.js"></script>
+</body>
+</html>

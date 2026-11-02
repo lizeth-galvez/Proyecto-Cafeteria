@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Dulce Aroma</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Dulce Aroma</h1>
+            <p>Cafetería & Pastelería</p>
+        </div>
+        <nav>
+            <a href="inicio.html">Inicio</a>
+            <a href="menu.html">Menú</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="carrito.html" class="carrito-icono">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="contador">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <section class="titulo">
+        <span class="linea"></span>
+        <h2>Contáctanos</h2>
+        <span class="linea"></span>
+    </section>
+
+    <div class="infoyfor">
+        <div class="informacion">
+            <h2>Encuéntranos</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.801002792342!2d-77.07828072405177!3d-11.988267240816096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce5cc57fb27f%3A0x978be5de6624be49!2sLos%20Cafetales%2C%20Los%20Olivos%2015301%2C%20Per%C3%BA!5e0!3m2!1ses!2sus!4v1784934699123!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+        </div>
+
+        <div class="formulario">
+            <h2>Envíanos un mensaje</h2>
+            <form id="form-contacto">
+                <input type="text" id="nombre" placeholder="Nombre Completo" required>
+                <input type="email" id="email" placeholder="Correo Electrónico" required>
+                <input type="tel" id="telefono" placeholder="Teléfono" required>
+                <input type="text" id="asunto" placeholder="Asunto" required>
+                <textarea id="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+                <button type="submit">
+                    Enviar Mensaje
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <section class="redes">
+        <h2>Síguenos en nuestras redes</h2>
+        <div class="tarjetas-redes">
+            <div class="red">
+                <i class="fa-brands fa-facebook"></i>
+                <h3>Facebook</h3>
+                <p>Dulce Aroma Oficial</p>
+            </div>
+            <div class="red">
+                <i class="fa-brands fa-instagram"></i>
+                <h3>Instagram</h3>
+                <p>@dulcearoma</p>
+            </div>
+            <div class="red">
+                <i class="fa-brands fa-tiktok"></i>
+                <h3>TikTok</h3>
+                <p>@dulcearoma</p>
+            </div>
+            <div class="red">
+                <i class="fa-brands fa-whatsapp"></i>
+                <h3>WhatsApp</h3>
+                <p>Pedidos y consultas</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h3>Dulce Aroma</h3>
+            <p>Cafetería & Pastelería</p>
+        </div>
+        <div>
+            <h3>Contáctanos</h3>
+            <p>Av. Los Cafetales 123</p>
+            <p>dulcearoma@gmail.com</p>
+        </div>
+        <div>
+            <h3>Horario</h3>
+            <p>Lunes - Domingo</p>
+            <p>8:00 am - 9:00 pm</p>
+        </div>
+    </footer>
+    <script src="../js/contacto.js"></script>
+</body>
+</html>

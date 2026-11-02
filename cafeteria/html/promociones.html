@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promociones | Dulce Aroma</title>
+    <link rel="stylesheet" href="../css/promociones.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Dulce Aroma</h1>
+            <p>Cafetería & Pastelería</p>
+        </div>
+        <nav>
+            <a href="inicio.html">Inicio</a>
+            <a href="menu.html">Menú</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="carrito.html" class="carrito-icono">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="contador">0</span>
+            </a>
+    </header>
+    <section class="titulo">
+        <div class="linea"></div>
+        <h2>Promociones Especiales</h2>
+        <div class="linea"></div>
+    </section>
+    <section class="principal">
+        <div class="imagen">
+            <img src="../img/promocion.jpg" alt="Combo Café + Pastel">
+        </div>
+        <div class="contenido">
+            <h2>Combo Café + Pasteles</h2>
+            <p>Disfruta un café grande acompañado de un delicioso pastel
+                artesanal de tu elección.</p>
+            <span>S/ 18.90</span>
+            <button 
+                onclick="agregarCarrito('Combo Café + Pasteles',18.90,'../img/promocion.jpg')">
+                Comprar
+            </button>
+        </div>
+    </section>
+    <section class="promociones">
+        <div class="promo">
+            <i class="fas fa-coffee"></i>
+            <h3>Desayuno Dulce Aroma</h3>
+            <p>Café + Jugo + Sándwich</p>
+        </div>
+        <div class="promo">
+            <i class="fas fa-id-card"></i>
+            <h3>Promoción Universitaria</h3>
+            <p>10% de descuento presentando tu carnet.</p>
+        </div>
+        <div class="promo">
+            <i class="fas fa-mug-hot"></i>
+            <h3>Happy Coffee</h3>
+            <p>Compra 2 cafés y el tercero es gratis.</p>
+        </div>
+        <div class="promo">
+            <i class="fas fa-birthday-cake"></i>
+            <h3>Día del Cumpleañero</h3>
+            <p>20% de descuento durante tu celebración.</p>
+        </div>
+    </section>
+    <section class="cupon">
+        <div class="icono-cupon">
+            <i class="fas fa-ticket-alt"></i>
+        </div>
+        <div class="texto">
+            <h2>Cupón de Descuento</h2>
+            <p>Utiliza este código y obtén un 
+                <strong>10% de descuento</strong> en tu próxima compra.
+            </p>
+            <div class="codigo">
+                DULCEAROMA23
+            </div>
+            <button id="copiar">
+                Copiar Cupón
+            </button>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h3>Dulce Aroma</h3>
+            <p>Cafetería & Pastelería</p>
+        </div>
+        <div>
+            <h3>Contáctanos</h3>
+            <p>Av. Los Cafetales 123</p>
+            <p>dulcearoma@gmail.com</p>
+        </div>
+        <div>
+            <h3>Horario</h3>
+            <p>Lunes - Domingo</p>
+            <p>8:00 am - 9:00 pm</p>
+        </div>
+        <div>
+            <h3>Síguenos</h3>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>TikTok</p>
+        </div>
+    </footer>
+    <script src="../js/comprar.js"></script>
+</body>
+</html>

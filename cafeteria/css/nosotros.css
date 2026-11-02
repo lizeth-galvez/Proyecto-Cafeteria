@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+body{
+    background:#fff8f2;
+    color:#4b2e1f;
+}
+img{
+    width:100%;
+    display:block;
+}
+header{
+    width:100%;
+    background:#6f3b22;
+    color:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo h1{
+    font-size:35px;
+    margin-bottom:5px;
+}
+.logo p{
+    font-size:15px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:17px;
+    transition:.3s;
+}
+nav a:hover{
+    color:#ffd59a;
+}
+.historia{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:45px;
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+.historia img{
+    height:360px;
+    object-fit:cover;
+    border-radius:15px;
+}
+.historia h2{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#5A331E;
+}
+.historia p{
+    line-height:30px;
+    color:#555;
+    margin-bottom:15px;
+}
+.mision-vision{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+}
+.caja{
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+    transition:.4s;
+}
+.caja:hover{
+    transform:translateY(-8px);
+}
+.caja i{
+    font-size:45px;
+    color:#D98A3A;
+    margin-bottom:18px;
+}
+.caja h3{
+    color:#7B4728;
+    margin-bottom:15px;
+    font-size:28px;
+}
+.caja p{
+    color:#666;
+    line-height:28px;
+}
+.valores{
+    width:90%;
+    max-width:1200px;
+    margin:70px auto;
+}
+.valores h2{
+    text-align:center;
+    font-size:36px;
+    color:#5A331E;
+    margin-bottom:45px;
+}
+.contenedor-valores{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+.valor{
+    background:white;
+    border-radius:15px;
+    padding:30px 20px;
+    text-align:center;
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
+    transition:.3s;
+}
+.valor:hover{
+    transform:translateY(-8px);
+}
+.valor i{
+    font-size:38px;
+    color:#D98A3A;
+    margin-bottom:15px;
+}
+.valor h4{
+    color:#7B4728;
+    margin-bottom:12px;
+    font-size:22px;
+}
+.valor p{
+    color:#666;
+    line-height:26px;
+}
+.equipo{
+    width:90%;
+    max-width:1200px;
+    margin:70px auto;
+}
+.equipo h2{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:45px;
+    color:#5A331E;
+}
+.contenedor-equipo{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+}
+.persona{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
+    transition:.4s;
+}
+.persona:hover{
+    transform:translateY(-10px);
+}
+.persona img{
+    width:170px;
+    height:170px;
+    object-fit:cover;
+    border-radius:30%;
+    margin:auto;
+    margin-bottom:20px;
+    border:6px solid #D98A3A;
+}
+.persona h3{
+    color:#7B4728;
+    margin-bottom:8px;
+    font-size:24px;
+}
+.persona span{
+    color:#666;
+    font-size:15px;
+}
+footer{
+    background:#6f3b22;
+    color:white;
+    padding:40px 8%;
+    margin-top:50px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+}
+footer h3{
+    font-size:25px;
+    margin-bottom:15px;
+}
+footer p{
+    color:#f5dfc7;
+    margin-bottom:8px;
+}
+@media(max-width:992px){
+    .historia{
+        grid-template-columns:1fr;
+    }
+    .mision-vision{
+        grid-template-columns:1fr;
+    }
+    .contenedor-valores{
+        grid-template-columns:repeat(2,1fr);
+    }
+    .contenedor-equipo{
+        grid-template-columns:repeat(2,1fr);
+    }
+    footer{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+@media(max-width:768px){
+    header{
+        flex-direction:column;
+        text-align:center;
+    }
+    nav{
+        margin-top:20px;
+    }
+    nav a{
+        display:block;
+        margin:10px;
+    }
+    .historia h2{
+        font-size:32px;
+    }
+    .contenedor-valores{
+        grid-template-columns:1fr;
+    }
+    .contenedor-equipo{
+        grid-template-columns:1fr;
+    }
+    footer{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+    .persona img{
+        width:150px;
+        height:150px;
+    }
+}
